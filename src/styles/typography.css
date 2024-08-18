@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+h1,
+h2,
+h3 {
+  font-size: var(--font-size-heading);
+  color: var(--color-heading);
+}
+
+.nav-link {
+  font-size: var(--font-size-menu);
+  color: var(--color-menu);
+}
+
+.title {
+    text-align: center;
+}

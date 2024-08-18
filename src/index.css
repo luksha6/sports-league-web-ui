@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--font-primary);
+}
+
+@import url('./styles/variables.css');
+@import url('./styles/base.css');
+@import url('./styles/typography.css');
+@import url('./styles/layout/navbar.css');
+@import url('./styles/layout/footer.css');
+@import url('./styles/layout/table.css');
+@import url('./styles/layout/leaderboard.css');
+@import url('./styles/layout/not-found.css');

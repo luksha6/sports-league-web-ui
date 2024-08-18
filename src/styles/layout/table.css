@@ -1,0 +1,62 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  font-size: var(--font-size-table-header);
+  background-color: var(--color-table-header-bg);
+  color: var(--color-table-text);
+  text-align: left;
+  padding: var(--table-padding);
+}
+
+td {
+  font-size: var(--font-size-table-cell);
+  color: var(--color-table-text);
+  padding: var(--table-padding);
+}
+
+td.bold {
+  font-size: var(--font-size-table-cell-bold);
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: var(--color-row-even-bg);
+}
+
+table,
+th,
+td {
+  border: 1px solid var(--color-table-border);
+}
+
+.league-table td.pl-25 {
+  padding-left: 25px;
+}
+
+.league-table td.pl-15 {
+  padding-left: 15px;
+}
+.tw-85 {
+  width: 85px;
+}
+
+@media (min-width: 501px) {
+  .tw-100 {
+    width: 100px;
+  }
+}
+
+@media (max-width: 505px) {
+  .tw-85 {
+    width: 60px;
+  }
+  .league-table td.p-0-m {
+    padding: 0;
+  }
+  .league-table tr th {
+    padding: 0;
+  }
+}

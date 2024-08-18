@@ -1,0 +1,31 @@
+:root {
+    --font-primary: 'Open Sans', sans-serif;
+    --font-secondary: sans-serif;
+    --font-size-menu: 16px;
+    --font-size-footer: 14px;
+    --font-size-heading: 24px;
+    --font-size-table-header: 12px;
+    --font-size-table-cell-small: 12px;
+    --font-size-table-cell: 14px;
+    --font-size-table-cell-bold: 16px;
+    --color-menu: #ffffff;
+    --color-heading: #182c62;
+    --color-points: blue;
+    --color-table-text: #4b5c68;
+    --color-footer: #4b5c68;
+    --color-header-bg: #025feb;
+    --color-table-header-bg: #e4edf2;
+    --color-table-border: #e4edf2;
+    --color-row-even-bg: #f6f7f7;
+    --color-footer-bg: #f6f7f7;
+    --header-height: 60px;
+    --footer-height: 40px;
+    --table-border-radius: 4px;
+    --table-padding: 8px 12px;
+    --global-padding: 10px 40px;
+    --row-height: 70px;
+    --header-row-height: 40px;
+    --flag-width: 53px;
+    --flag-height: 37px;
+    --table-height: 90%;
+  }

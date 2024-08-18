@@ -1,0 +1,107 @@
+.table-container {
+  margin: 0 auto;
+  height: var(--table-height);
+}
+
+.table-heading {
+  text-align: center;
+  color: var(--color-heading);
+  font-size: var(--font-size-heading);
+  margin-bottom: 20px;
+}
+
+.league-table {
+  width: 100%;
+  background-color: var(--color-menu);
+  border: unset;
+  border-radius: var(--table-border-radius);
+  border-collapse: collapse;
+}
+
+.league-table th {
+  background-color: var(--color-table-header-bg);
+  color: var(--color-table-text);
+  font-size: var(--font-size-table-header);
+  text-align: left;
+  border: unset;
+  padding: var(--table-padding);
+  height: var(--header-row-height);
+}
+
+.league-table td {
+  font-size: var(--font-size-table-cell);
+  color: var(--color-table-text);
+  padding: var(--table-padding);
+  vertical-align: middle;
+  height: var(--row-height);
+}
+
+.league-table td {
+  border-left: unset;
+  border-right: unset;
+}
+
+.league-table .bolded {
+  font-size: var(--font-size-table-cell-bold);
+  font-weight: bold;
+}
+
+.league-table tr:last-child,
+.league-table tr:last-child td {
+  border-bottom: unset;
+}
+
+.league-table tbody tr:nth-child(even) {
+  background-color: var(--color-row-even-bg);
+  border: unset;
+}
+
+.standings .league-table tbody tr:nth-child(even) {
+  background-color: #fff;
+}
+
+.league-table tbody tr:nth-child(odd) {
+  background-color: var(--color-menu);
+}
+
+.league-table td.team-cell {
+  display: flex;
+  align-items: center;
+}
+
+.league-table td.team-cell-rtl {
+  text-align: right;
+}
+
+.league-table td img.flag {
+  width: var(--flag-width);
+  height: var(--flag-height);
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.league-table td.points {
+  font-size: var(--font-size-table-cell-bold);
+  font-weight: bold;
+  color: var(--color-points);
+}
+
+.league-table td.team-cell-rtl img {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.league-table .home-team {
+  text-align: right;
+}
+
+.league-table th.date-block,
+.league-table td.date-block {
+  width: 100px;
+  text-align: right;
+  font-size: var(--font-size-table-cell-small);
+}
+
+.league-table .pl-80 {
+  padding-left: 80px;
+}
